@@ -9,6 +9,13 @@ import 'bootstrap/dist/css/bootstrap.css'
 import localFont from "next/font/local";
 import "./globals.css";
 
+
+
+//import components
+import Nav from './components/Navbar/Nav';
+import Footer from './components/Footer/Footer';
+
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -31,7 +38,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div
+          className="container"
+        >
+          <Nav />
+          {children}
+          <Footer />
+        </div>
+
+
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
         ></script>

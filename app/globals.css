@@ -7,6 +7,12 @@
   --foreground: #171717;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -24,4 +30,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--foreground);
+  width: 1536px;
+  margin: auto;
+  padding: 0 50px;
+  min-height: 100vh;
+  color: #ffffff;
 }
