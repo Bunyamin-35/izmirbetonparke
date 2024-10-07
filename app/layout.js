@@ -12,8 +12,9 @@ import "./globals.css";
 
 
 //import components
-import Nav from './components/Navbar/Nav';
 import Footer from './components/Footer/Footer';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Nav';
 
 
 const geistSans = localFont({
@@ -41,7 +42,9 @@ export default function RootLayout({ children }) {
         <div
           className="container"
         >
-          <Nav />
+          
+          <Navbar />
+          <Hero />
           {children}
           <Footer />
         </div>
