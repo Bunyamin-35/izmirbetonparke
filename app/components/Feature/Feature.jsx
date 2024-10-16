@@ -58,7 +58,7 @@ const features = [
 {
     id: 2,
     title: "Uygun Fiyat",
-    description: "Parke taşlarının üretimini kendi bünyemizde gerçekleştirdiğimiz için daha uyun fiyatlara müşteriye sunuyoruz.",
+    description: "Parke taşlarının üretimini kendi bünyemizde gerçekleştirdiğimiz için daha uygun fiyatlara müşteriye sunuyoruz.",
     icon: "euro-circle"
 },
 {
