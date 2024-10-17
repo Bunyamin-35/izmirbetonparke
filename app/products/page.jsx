@@ -63,11 +63,11 @@ export default function HomePage() {
                         <Image
                             src={selectedSubitem.image}
                             alt={selectedSubitem.name}
-                            width={150}  // Replace with the width you want
+                            width={480}  // Replace with the width you want
                             height={150} // Replace with the height you want
-                            className="w-10 h-10 object-cover mr-2"
+                            className="w-full h-96 object-cover mr-2 my-2 py-3"
                         />
-                        <p className="mt-4 text-gray-700">{selectedSubitem.description}</p>
+                        <p className="mt-4 text-gray-700">{selectedSubitem.subitem}</p>
                     </>
                 ) : (
                     <p className="text-gray-700">Select a feature from the left to see more details.</p>

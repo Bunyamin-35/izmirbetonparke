@@ -1,17 +1,29 @@
-import image1 from "../assets/feature1.webp"
+import image1 from "../assets/products/kilitparke.jpg"
+import image2 from "../assets/products/30x30.jpg"
+import image3 from "../assets/products/20x20.jpg"
+import image4 from "../assets/products/20x50.jpg"
+import image5 from "../assets/products/10x10.jpg"
+import image6 from "../assets/products/starparke.jpg"
+import image7 from "../assets/products/prizmaparke.jpg"
+
 export const items = [
     {
         id: 1,
         name: 'PARKE TAŞI',
         description: 'This is the description for Product 1. It is an amazing product with many features.',
         subitems: [
-            { id: 1, name: '8 cm Kilit Parke Taşı', description: 'Description of Feature 1 for Product 1.', image:{image1} },
-            { id: 2, name: '30x30x8 Karo Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: 'https://via.placeholder.com/150' },
-            { id: 3, name: '20x20*8 Karo Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: 'https://via.placeholder.com/150' },
-            { id: 4, name: '20x50x8 Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: 'https://via.placeholder.com/150' },
-            { id: 5, name: '10x10x8 Küp Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: 'https://via.placeholder.com/150' },
-            { id: 6, name: '10x20x8 Star Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: 'https://via.placeholder.com/150' },
-            { id: 7, name: '8 cm Prizma Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: 'https://via.placeholder.com/150' },
+            { id: 1, name: '8 cm Kilit Parke Taşı',image:image1 , subitem:[
+                { id: 1, name: 'Malzeme', description: 'Yüksek dayanımlı beton.',},
+                { id: 2, name: 'Boyutlar',description: 'Kalınlığı 8 cm olup, genişlik ve uzunluk ölçüleri üreticiye göre değişiklik gösterebilir.',},
+                { id: 3, name: 'Renk ve Doku Seçenekleri', description: 'Doğal gri, kırmızı, sarı ve beyaz gibi renklerde ve çeşitli doku seçeneklerinde üretilir.',},
+                { id: 4, name: 'Uygulama Alanı', image: "", description: 'Yüksek trafik alanları, endüstriyel zeminler, araç yolları ve otoparklar.',},
+            ]},
+            { id: 2, name: '30x30x8 Karo Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: image2 },
+            { id: 3, name: '20x20*8 Karo Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: image3 },
+            { id: 4, name: '20x50x8 Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: image4 },
+            { id: 5, name: '10x10x8 Küp Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: image5 },
+            { id: 6, name: '10x20x8 Star Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: image6 },
+            { id: 7, name: '8 cm Prizma Parke Taşı', image: "", description: 'Description of Feature 2 for Product 1.', image: image7 },
         ],
     },
     {
