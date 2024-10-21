@@ -158,10 +158,10 @@ const FooterBlock = () => {
           <div className="w-full lg:w-96 space-y-6">
             <Link href="#">
               <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-800 to-indigo-400 font-bold text-2xl">U</span>
-              Unify-Ui
+              Balaban İnşaat
             </Link>
             <p className="max-w-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iusto est quia a
+              Beton Parke Ürünlerimiz kalite standartlarına uygun bir şekilde üretiyoruz ve hizmetinize sunuyoruz.
             </p>
           </div>
           <nav className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-10">

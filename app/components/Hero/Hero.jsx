@@ -11,20 +11,19 @@ export default function HeroSection() {
                 <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
                     <div className="flex flex-col space-y-8 sm:space-y-10 lg:items-center text-center lg:text-left max-w-2xl md:max-w-3xl mx-auto">
                         <h1 className=" font-semibold leading-tight text-teal-950 dark:text-white text-4xl sm:text-5xl lg:text-6xl">
-                            We'll be happy to take care of <span className="text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-orange-800">your work.</span>
+                            40 yılı aşkın tecrübe<span className="text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-orange-800"> Beton Parke Taşı</span>
                         </h1>
                         <p className=" flex text-gray-700 dark:text-gray-300 tracking-tight md:font-normal max-w-xl mx-auto lg:max-w-none">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae soluta ipsa
-                            incidunt expedita rem! Suscipit molestiae voluptatem iure, eum alias nobis velit quidem
-                            reiciendis saepe nostrum
+                            Dayanıklı ve estetik beton parke taşlarıyla projelerinize değer katıyoruz.
+                            40 yılı aşkın deneyimimizle kaliteli üretim ve profesyonel uygulamalar sunuyoruz.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 w-full">
                             <Link href="#" className="px-6 items-center h-12 rounded-3xl bg-pink-600 text-white duration-300 ease-linear flex justify-center w-full sm:w-auto">
-                                Get started
+                                İletişime Geçin
                             </Link>
-                            <Link href="#" className="px-6 items-center h-12 rounded-3xl text-pink-700 border border-gray-100 dark:border-gray-800 dark:text-white bg-gray-100 dark:bg-gray-900 duration-300 ease-linear flex justify-center w-full sm:w-auto">
+                            {/* <Link href="#" className="px-6 items-center h-12 rounded-3xl text-pink-700 border border-gray-100 dark:border-gray-800 dark:text-white bg-gray-100 dark:bg-gray-900 duration-300 ease-linear flex justify-center w-full sm:w-auto">
                                 Book a call
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className="mt-5 flex items-center justify-center flex-wrap gap-4 lg:justify-start w-full">
                             <a href="#" target="_blank" rel='noreferer'>

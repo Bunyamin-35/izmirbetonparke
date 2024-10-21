@@ -21,12 +21,12 @@ const Navbar = () => {
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5">
         <div className="w-full flex justify-between h-14 items-center">
           <div className="h-full flex items-center gap-x-4 text-gray-700 dark:text-gray-300">
-            <a href="tel:" className="flex gap-1 text-sm" rel='noreferer'>
+            <a href="tel:+90 541 262 29 22" className="flex gap-1 text-sm" rel='noreferer'>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M14.414 7l3.293-3.293a1 1 0 00-1.414-1.414L13 5.586V4a1 1 0 10-2 0v4.003a.996.996 0 00.617.921A.997.997 0 0012 9h4a1 1 0 100-2h-1.586z" />
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              <span className="hidden sm:flex">+243 97 24 44 966</span>
+              <span className="hidden sm:flex">+90 541 262 29 22</span>
             </a>
             <a href="mailto:" className="flex gap-1 items-center" rel='noreferer'>
               <span>
@@ -34,21 +34,21 @@ const Navbar = () => {
                   <path fillRule="evenodd" d="M2.106 6.447A2 2 0 001 8.237V16a2 2 0 002 2h14a2 2 0 002-2V8.236a2 2 0 00-1.106-1.789l-7-3.5a2 2 0 00-1.788 0l-7 3.5zm1.48 4.007a.75.75 0 00-.671 1.342l5.855 2.928a2.75 2.75 0 002.46 0l5.852-2.926a.75.75 0 10-.67-1.342l-5.853 2.926a1.25 1.25 0 01-1.118 0l-5.856-2.928z" clipRule="evenodd" />
                 </svg>
               </span>
-              <span className="hidden sm:flex">johndoe@info.com</span>
+              <span className="hidden sm:flex"> info@balabaninsaat.com.tr</span>
             </a>
           </div>
           <div className="flex items-center gap-x-2.5 -mx-2 text-gray-700 dark:text-gray-300 children:p-2 children:border children:border-x-gray-200 dark:children:border-gray-800 children:bg-gray-100 dark:children:bg-gray-900 children:rounded-md">
-            <a href="#facebook" className="transition ease-linear hover:text-pink-700" rel='noreferer'>
+            {/* <a href="#facebook" className="transition ease-linear hover:text-pink-700" rel='noreferer'>
               <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
               </svg>
-            </a>
-            <a href="#twitter" className="transition ease-linear hover:text-pink-700" rel='noreferer'>
+            </a> */}
+            {/* <a href="#twitter" className="transition ease-linear hover:text-pink-700" rel='noreferer'>
               <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="currentColor" className="bi bi-twitter" viewBox="0 0 16 16">
                 <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
               </svg>
-            </a>
-            <a href="#linkedin" className="transition ease-linear hover:text-pink-700" rel='noreferer'>
+            </a> */}
+            <a href="#linkedin" className="transition ease-linear hover:text-blue-600" rel='noreferer'>
               <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
               </svg>
@@ -64,11 +64,11 @@ const Navbar = () => {
       <header className="sticky left-0 top-0 w-full flex items-center h-20 border-b border-b-gray-100 dark:border-b-gray-900 z-40 bg-white dark:bg-gray-950 bg-opacity-80 backdrop-filter backdrop-blur-xl">
         <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
           <div className="flex items-center min-w-max">
-            <Link href="#" className="text-xl font-semibold flex items-center gap-x-2">
-              <span className="flex">
+            <Link href="/" className="text-xl font-semibold flex items-center gap-x-2">
+              {/* <span className="flex">
                 <span className="w-3 h-6 rounded-l-full flex bg-red-500" />
                 <span className="w-3 h-6 rounded-r-full flex bg-pink-700 mt-2" />
-              </span>
+              </span> */}
               <span className="text-lg text-gray-700 dark:text-gray-300">BALABAN</span>
             </Link>
           </div>
@@ -85,9 +85,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link href="/products" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Ürünlerimiz</Link>
-              </li>
-              <li>
-                <Link href="/products" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Kariyer</Link>
               </li>
               <li>
                 <Link href="/contact" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">İletişim</Link>

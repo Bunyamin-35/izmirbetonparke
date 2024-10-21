@@ -27,15 +27,15 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen p-6">
       {/* Contact Form Section */}
       <div className="flex flex-col md:flex-row gap-8">
         {/* Form Container */}
-        <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        {/* <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
           <h1 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h1>
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Name */}
+            
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                 Name
@@ -52,7 +52,7 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Email */}
+            
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Email
@@ -69,7 +69,7 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Subject */}
+            
             <div>
               <label htmlFor="subject" className="block text-sm font-medium text-gray-700">
                 Subject
@@ -86,7 +86,7 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Message */}
+            
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-700">
                 Message
@@ -103,7 +103,7 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Submit Button */}
+            
             <div>
               <button
                 type="submit"
@@ -113,22 +113,22 @@ export default function ContactPage() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
 
         {/* Map Section */}
         <div className="flex-1 bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Location</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">İletişim Bilgilerimiz</h2>
           <p className="text-gray-600 mb-4">
-            You can find us at the following address:
+            Adres Bilgimiz
             <br />
-            <strong>123 Main Street, City Name, Country</strong>
+            <strong>29 Ekim, Ulukent Sanayi, 10007. Sk. Sitesi No:24, 35663 Menemen/İzmir, Türkiye</strong>
           </p>
 
           {/* Google Maps Embed */}
           <div className="w-full h-64 rounded-lg overflow-hidden">
             <iframe
               className="w-full h-full"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509175!2d144.95373631568264!3d-37.81627974202115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f4f579%3A0x7f2d1d49c84c58b3!2s123%20Main%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1633881825798!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.033818371305!2d27.0286195!3d38.532988599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd1aae0a633cb%3A0x2b113ece0fa6b3e9!2zQmFsYWJhbiDEsG7Fn2FhdCDFnmlya2V0bGVyIEdydWJ1!5e0!3m2!1sen!2sus!4v1729509230641!5m2!1sen!2sus"
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

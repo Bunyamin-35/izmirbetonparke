@@ -17,9 +17,9 @@ export default function HomePage() {
     };
 
     return (
-        <div className="min-h-screen flex bg-gray-100">
+        <div className="min-h-screen flex">
             {/* Left Sidebar (List of Items) */}
-            <div className="w-1/4 p-6 bg-white shadow-md">
+            <div className="w-1/4 p-6">
                 <h2 className="text-xl font-bold mb-4">Products</h2>
                 <ul>
                     {items.map((item) => (
@@ -67,10 +67,18 @@ export default function HomePage() {
                             height={150} // Replace with the height you want
                             className="w-full h-96 object-cover mr-2 my-2 py-3"
                         />
-                        <p className="mt-4 text-gray-700">{selectedSubitem.subitem}</p>
+                        <p>{selectedSubitem.description}</p>
+                        {selectedSubitem.features && (
+                            <p className="mt-4 text-gray-700">{selectedSubitem.features.map(feature => (
+                                <li key={feature.id}>
+                                    <span className='font-bold'>{feature.name}</span>:{feature.description}
+                                </li>
+                            ))}</p>
+                        )}
+
                     </>
                 ) : (
-                    <p className="text-gray-700">Select a feature from the left to see more details.</p>
+                    <p className="text-gray-700">Beton parke taşı ve bordür taşı ürünlerimizi incelemek için sol tarafta bulunan menüden seçim yapabilirsiniz.</p>
                 )}
             </div>
         </div>
