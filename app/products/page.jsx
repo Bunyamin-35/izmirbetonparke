@@ -65,7 +65,7 @@ export default function HomePage() {
                             alt={selectedSubitem.name}
                             width={480}  // Replace with the width you want
                             height={150} // Replace with the height you want
-                            className="w-full h-96 object-cover mr-2 my-2 py-3"
+                            className="w-full h-96 my-2 object-cover rounded-3xl overflow-clip border-8 border-gray-200 dark:border-gray-950"
                         />
                         <p>{selectedSubitem.description}</p>
                         {selectedSubitem.features && (

@@ -30,123 +30,108 @@ const FooterBlockItem = ({ title, items }) => {
 const footerBlocks = [
   {
     id: 1,
-    title: "Services",
+    title: "Ürünler",
     items: [
       {
         id: 1,
-        text: "Web design",
-        link: "#"
+        text: "Beton Parke Taşı",
+        link: "/products"
       },
       {
         id: 2,
-        text: " Consultancy ",
-        link: "#"
+        text: "Beton Bordür Taşı",
+        link: "/products"
       },
       {
         id: 3,
-        text: "Web Development",
-        link: "#"
+        text: "Yağmur/Su Oluğu",
+        link: "/products"
       },
       {
         id: 4,
-        text: "Mobile Development",
-        link: "#"
+        text: "Agrega",
+        link: "/products"
       },
       {
         id: 5,
-        text: "Mobile Development",
-        link: "#"
+        text: "Çimento",
+        link: "/products"
       },
     ]
   },
   {
     id: 2,
-    title: "Company",
+    title: "Şirketimiz",
     items: [
       {
         id: 1,
-        text: "About",
-        link: "#"
+        text: "Ana Sayfa",
+        link: "/"
       },
       {
         id: 2,
-        text: "Career",
-        link: "#"
+        text: "Hakkımızda",
+        link: "/about"
       },
       {
         id: 3,
-        text: "Contact",
-        link: "#"
+        text: "Üretim",
+        link: "/"
       },
       {
         id: 4,
-        text: "Services",
-        link: "#"
+        text: "Ürünlerimiz",
+        link: "/products"
       },
       {
         id: 5,
-        text: "Services",
-        link: "#"
+        text: "İletişim",
+        link: "/contact"
       },
     ]
   },
   {
     id: 3,
-    title: "Social",
+    title: "Sosyal Medya",
     items: [
       {
         id: 1,
-        text: "Twitter X",
-        link: "#"
-      },
-      {
-        id: 2,
         text: "Instagram",
         link: "#"
       },
       {
-        id: 3,
-        text: "Threds",
-        link: "#"
-      },
-      {
-        id: 4,
-        text: "Facebook",
-        link: "#"
-      },
-      {
-        id: 5,
-        text: "Linkedin",
-        link: "#"
-      },
-    ]
-  },
-  {
-    id: 4,
-    title: "Ressources",
-    items: [
-      {
-        id: 1,
-        text: "Blog",
-        link: "#"
-      },
-      {
         id: 2,
-        text: "Privacy",
-        link: "#"
-      },
-      {
-        id: 3,
-        text: "Terms",
-        link: "#"
-      },
-      {
-        id: 4,
-        text: "FAQ",
+        text: "LinkedIn",
         link: "#"
       },
     ]
   },
+  // {
+  //   id: 4,
+  //   title: "Kaynaklar",
+  //   items: [
+  //     {
+  //       id: 1,
+  //       text: "Blog",
+  //       link: "#"
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "Privacy",
+  //       link: "#"
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "Terms",
+  //       link: "#"
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "FAQ",
+  //       link: "#"
+  //     },
+  //   ]
+  // },
 ]
 
 
@@ -157,8 +142,8 @@ const FooterBlock = () => {
         <div className="border-t border-t-gray-200 dark:border-t-gray-800 py-16 md:py-20 flex flex-col lg:flex-row gap-14 gap-y-16">
           <div className="w-full lg:w-96 space-y-6">
             <Link href="#">
-              <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-800 to-indigo-400 font-bold text-2xl">U</span>
-              Balaban İnşaat
+              {/* <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-800 to-indigo-400 font-bold text-2xl">U</span> */}
+              <span className="text-lg text-gray-700 dark:text-gray-300 font-semibold">BALABAN</span>
             </Link>
             <p className="max-w-lg">
               Beton Parke Ürünlerimiz kalite standartlarına uygun bir şekilde üretiyoruz ve hizmetinize sunuyoruz.
@@ -177,7 +162,7 @@ const FooterBlock = () => {
       </div>
       <div className="py-3 bg-gray-100 dark:bg-gray-900">
         <div className="max-w-3xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex justify-center text-center">
-          <p> © 2023 UnifyUI. All right reserved </p>
+          <p> © 2024 Tüm Hakları Saklıdır. </p>
         </div>
       </div>
     </footer>

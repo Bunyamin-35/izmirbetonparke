@@ -5,14 +5,16 @@ import Features from "./components/Feature/Feature";
 import CTASection from "./components/CTA/CTASection";
 import MetricsSection from "./components/Metrics/Metrics";
 import PortfolioSection from "./components/Portfolio/Portfolio";
+import Slider from "./components/Slider/Slider";
 
 export default function Home() {
   return (
     <div >
       <HeroSection />
       <LogoCloudSection />
+      <Slider/>
       <Features />
-      <PortfolioSection/>
+      {/* <PortfolioSection/> */}
       <MetricsSection/> 
       <CTASection />
     </div>

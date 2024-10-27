@@ -1,4 +1,4 @@
-import feature2 from "../assets/feature2.webp"
+import fabrika from "../assets/fabrika.jpg"
 import Image from 'next/image'
 
 const ContentSection = () => {
@@ -6,7 +6,7 @@ const ContentSection = () => {
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-16">
         <div className="flex md:flex-1">
-          <Image src={feature2} alt="working on housing" width={1300} height={900} className="w-full md:h-full object-cover rounded-lg" />
+          <Image src={fabrika} alt="working on housing" width={1300} height={900} className="w-full md:h-full object-cover rounded-lg" />
         </div>
         <div className="md:w-1/2 lg:w-[54%] space-y-12 text-gray-700 dark:text-gray-300">
           <h1 className="text-gray-900 dark:text-white font-semibold text-2xl sm:text-3xl md:text-4xl">
@@ -37,7 +37,7 @@ const ContentSection = () => {
               </span>
               <h2 className="font-semibold text-xl text-gray-900 dark:text-white">Vizyonumuz</h2>
               <p>
-                Kalite 
+                Kaliteli Ürün ve Hizmet.
               </p>
             </div>
           </div>
