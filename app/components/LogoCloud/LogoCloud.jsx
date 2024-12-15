@@ -12,7 +12,7 @@ import logo10 from "../../assets/gaziemir.png"
 const LogoItem = ({ logo, name }) => {
     return (
         <div className="flex items-center p-4 sm:p-5 rounded-lg border border-gray-100 dark:border-gray-900 group">
-            <Image src={logo} width={100} height={60} alt={name} className="my-auto h-auto sm:h-10 w-40 ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105" />
+            <Image src={logo} width={100} height={60} alt={name} className="my-auto h-auto sm:h-10 w-40 ease-linear duration-300  group-hover:scale-105" />
         </div>
     )
 }

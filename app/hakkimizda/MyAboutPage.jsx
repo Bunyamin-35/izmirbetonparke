@@ -1,7 +1,11 @@
+'use client'
+
 import fabrika from "../assets/fabrika.jpg"
 import Image from 'next/image'
 
-const ContentSection = () => {
+import React from 'react'
+
+export const MyAboutPage = () => {
   return (
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-16">
@@ -25,7 +29,7 @@ const ContentSection = () => {
               </span>
               <h2 className="font-semibold text-xl text-gray-900 dark:text-white">Misyonumuz</h2>
               <p>
-                Müşteri memnuniyeti. 
+                Müşteri memnuniyeti.
               </p>
             </div>
             <div className="space-y-6 p-4 rounded-xl bg-white dark:bg-gray-950 border border-gray-100 dark:border-gray-900">
@@ -47,4 +51,3 @@ const ContentSection = () => {
   )
 }
 
-export default ContentSection

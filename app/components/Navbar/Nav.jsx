@@ -64,12 +64,13 @@ const Navbar = () => {
       <header className="sticky left-0 top-0 w-full flex items-center h-20 border-b border-b-gray-100 dark:border-b-gray-900 z-40 bg-white dark:bg-gray-950 bg-opacity-80 backdrop-filter backdrop-blur-xl">
         <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
           <div className="flex items-center min-w-max">
-            <Link href="/" className="text-xl font-semibold flex items-center gap-x-2">
+            <Link href="/" className="flex flex-col">
               {/* <span className="flex">
                 <span className="w-3 h-6 rounded-l-full flex bg-red-500" />
                 <span className="w-3 h-6 rounded-r-full flex bg-pink-700 mt-2" />
               </span> */}
-              <span className="text-lg text-gray-700 dark:text-gray-300">BALABAN</span>
+              <span className="text-lg text-gray-700 dark:text-gray-300 font-semibold">BALABAN</span>
+              <span className="text-[9px] text-gray-500 dark:text-gray-300 font-semibold">ŞİRKETLER GRUBU</span>
             </Link>
           </div>
           <div className={`
@@ -81,13 +82,13 @@ const Navbar = () => {
                 <Link href="/" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Ana Sayfa</Link>
               </li>
               <li>
-                <Link href="/about" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Hakkımızda</Link>
+                <Link href="/hakkimizda" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Hakkımızda</Link>
               </li>
               <li>
-                <Link href="/products" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Ürünlerimiz</Link>
+                <Link href="/urunlerimiz" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Ürünlerimiz</Link>
               </li>
               <li>
-                <Link href="/contact" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">İletişim</Link>
+                <Link href="/iletisim" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">İletişim</Link>
               </li>
 
             </ul>

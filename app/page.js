@@ -7,6 +7,7 @@ import MetricsSection from "./components/Metrics/Metrics";
 import PortfolioSection from "./components/Portfolio/Portfolio";
 import Slider from "./components/Slider/Slider";
 
+
 export default function Home() {
   return (
     <div >

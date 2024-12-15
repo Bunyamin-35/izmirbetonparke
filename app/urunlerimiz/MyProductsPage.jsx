@@ -2,8 +2,10 @@
 import { useState } from 'react';
 import { items } from "../data/products.js"
 import Image from 'next/image.js';
+import image1 from "../assets/fabrika.jpg"
 
-export default function HomePage() {
+const MyProductsPage = () => {
+
     const [selectedSubitem, setSelectedSubitem] = useState(null); // To track the selected sublist item
     const [expandedItems, setExpandedItems] = useState([]); // To track which items have expanded sublists
 
@@ -15,12 +17,11 @@ export default function HomePage() {
                 : [...prevState, itemId] // Expand sublist if it's collapsed
         );
     };
-
     return (
         <div className="min-h-screen flex">
             {/* Left Sidebar (List of Items) */}
             <div className="w-1/4 p-6">
-                <h2 className="text-xl font-bold mb-4">Products</h2>
+                <h2 className="text-xl font-bold mb-4">Ürünlerimiz</h2>
                 <ul>
                     {items.map((item) => (
                         <li key={item.id}>
@@ -78,9 +79,19 @@ export default function HomePage() {
 
                     </>
                 ) : (
-                    <p className="text-gray-700">Beton parke taşı ve bordür taşı ürünlerimizi incelemek için sol tarafta bulunan menüden seçim yapabilirsiniz.</p>
+                    <>
+                        <p className="text-gray-700">Beton parke taşı ve bordür taşı ürünlerimizi incelemek için sol tarafta bulunan menüden seçim yapabilirsiniz.</p>
+                        <Image
+                            src={image1}
+                            alt="fabrika"
+                            className="w-full, my-2 object-cover rounded-3xl overflow-clip border-8 border-gray-200 dark:border-gray-950"
+                        />
+                    </>
+
                 )}
             </div>
         </div>
-    );
+    )
 }
+
+export default MyProductsPage

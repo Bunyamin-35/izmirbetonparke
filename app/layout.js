@@ -27,7 +27,10 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "İzmir Beton Parke",
+  title: {
+    default:"Ana Sayfa -İzmir Beton Parke",
+    template:"%s - İzmir Beton Parke"
+  },
   description: "Balaban Sirketler Grubu",
 };
 
