@@ -35,27 +35,27 @@ const footerBlocks = [
       {
         id: 1,
         text: "Beton Parke Taşı",
-        link: "/products"
+        link: "/urunlerimiz"
       },
       {
         id: 2,
         text: "Beton Bordür Taşı",
-        link: "/products"
+        link: "/urunlerimiz"
       },
       {
         id: 3,
         text: "Yağmur/Su Oluğu",
-        link: "/products"
+        link: "/urunlerimiz"
       },
       {
         id: 4,
         text: "Agrega",
-        link: "/products"
+        link: "/urunlerimiz"
       },
       {
         id: 5,
         text: "Çimento",
-        link: "/products"
+        link: "/urunlerimiz"
       },
     ]
   },
