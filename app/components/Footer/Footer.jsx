@@ -60,7 +60,33 @@ const footerBlocks = [
     ]
   },
   {
-    id: 2,
+    id: 4,
+    title: "Projelerimiz ",
+    items: [
+      {
+        id: 1,
+        text: "Peyzaj",
+        link: "https://balabaninsaat.com.tr/taahhut-projeleri"
+      },
+      {
+        id: 2,
+        text: "Konut Projeleri",
+        link: "https://balabaninsaat.com.tr/konut-projeleri"
+      },
+      {
+        id: 3,
+        text: "Jet Grout",
+        link: "https://balabaninsaat.com.tr/jet-grout-projeleri"
+      },
+      {
+        id: 4,
+        text: "Taahhüt Projeleri",
+        link: "https://balabaninsaat.com.tr/taahhut-projeleri"
+      },
+    ]
+  },
+  {
+    id: 3,
     title: "Şirketimiz",
     items: [
       {
@@ -91,7 +117,7 @@ const footerBlocks = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "Sosyal Medya",
     items: [
       {
@@ -106,32 +132,7 @@ const footerBlocks = [
       },
     ]
   },
-  // {
-  //   id: 4,
-  //   title: "Kaynaklar",
-  //   items: [
-  //     {
-  //       id: 1,
-  //       text: "Blog",
-  //       link: "#"
-  //     },
-  //     {
-  //       id: 2,
-  //       text: "Privacy",
-  //       link: "#"
-  //     },
-  //     {
-  //       id: 3,
-  //       text: "Terms",
-  //       link: "#"
-  //     },
-  //     {
-  //       id: 4,
-  //       text: "FAQ",
-  //       link: "#"
-  //     },
-  //   ]
-  // },
+
 ]
 
 
