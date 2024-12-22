@@ -93,7 +93,7 @@ const Navbar = () => {
 
             </ul>
             <div className="flex sm:items-center lg:min-w-max mt-10 lg:mt-0">
-              <Link href="/contact" className="px-6 items-center h-12 rounded-3xl text-pink-700 border border-gray-100 dark:border-gray-800 dark:text-blue bg-gray-100 dark:bg-gray-900 duration-300 ease-linear flex justify-center w-full sm:w-auto">
+              <Link href="/iletisim" className="px-6 items-center h-12 rounded-3xl text-pink-700 border border-gray-100 dark:border-gray-800 dark:text-blue bg-gray-100 dark:bg-gray-900 duration-300 ease-linear flex justify-center w-full sm:w-auto">
                 Bizi Arayın
               </Link>
             </div>

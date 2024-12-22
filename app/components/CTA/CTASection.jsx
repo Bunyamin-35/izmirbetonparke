@@ -1,3 +1,5 @@
+'use client'
+import Link from "next/link"
 
 const CTASection = () => {
     return (
@@ -27,9 +29,9 @@ const CTASection = () => {
                             delectus architecto ullam earum
                         </p> */}
                         <div className="mx-auto max-w-md sm:max-w-xl flex justify-center">
-                            <button className="outline-none h-12 px-5 rounded-xl bg-blue-600 text-white flex items-center">
+                            <a href="/iletisim" className="outline-none h-12 px-5 rounded-xl bg-blue-600 text-white flex items-center">
                                 Hemen Arayın
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
