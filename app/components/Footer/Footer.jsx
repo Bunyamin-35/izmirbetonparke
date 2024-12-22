@@ -138,9 +138,9 @@ const footerBlocks = [
 
 const FooterBlock = () => {
   return (
-    <footer className="bg-white dark:bg-gray-950 text-gray-700 dark:text-gray-300">
+    <footer className="bg-white  text-gray-700">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
-        <div className="border-t border-t-gray-200 dark:border-t-gray-800 py-16 md:py-20 flex flex-col lg:flex-row gap-14 gap-y-16">
+        <div className="border-t border-t-gray-200  py-16 md:py-20 flex flex-col lg:flex-row gap-14 gap-y-16">
           <div className="w-full lg:w-96 space-y-6">
             <Link className="flex flex-col" href="#">
               {/* <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-800 to-indigo-400 font-bold text-2xl">U</span> */}
@@ -162,7 +162,7 @@ const FooterBlock = () => {
           </nav>
         </div>
       </div>
-      <div className="py-3 bg-gray-100 dark:bg-gray-900">
+      <div className="py-3 bg-gray-100">
         <div className="max-w-3xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex justify-center text-center">
           <p> © 2024 Tüm Hakları Saklıdır. </p>
         </div>
