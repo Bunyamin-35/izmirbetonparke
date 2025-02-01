@@ -20,7 +20,7 @@ const Navbar = () => {
       } />
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5">
         <div className="w-full flex justify-between h-14 items-center">
-          <div className="h-full flex items-center gap-x-4 text-gray-700 dark:text-gray-300">
+          <div className="h-full flex items-center gap-x-4 text-gray-700">
             <a href="tel:+90 541 262 29 22" className="flex gap-1 text-sm" rel='noreferer'>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M14.414 7l3.293-3.293a1 1 0 00-1.414-1.414L13 5.586V4a1 1 0 10-2 0v4.003a.996.996 0 00.617.921A.997.997 0 0012 9h4a1 1 0 100-2h-1.586z" />
@@ -37,7 +37,7 @@ const Navbar = () => {
               <span className="hidden sm:flex"> info@balabaninsaat.com.tr</span>
             </a>
           </div>
-          <div className="flex items-center gap-x-2.5 -mx-2 text-gray-700 dark:text-gray-300 children:p-2 children:border children:border-x-gray-200 dark:children:border-gray-800 children:bg-gray-100 dark:children:bg-gray-900 children:rounded-md">
+          <div className="flex items-center gap-x-2.5 -mx-2 text-gray-700 children:p-2 children:border children:border-x-gray-200 children:bg-gray-100 children:rounded-md">
             {/* <a href="#facebook" className="transition ease-linear hover:text-pink-700" rel='noreferer'>
               <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -61,7 +61,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <header className="sticky left-0 top-0 w-full flex items-center h-20 border-b border-b-gray-100 dark:border-b-gray-900 z-40 bg-white dark:bg-gray-950 bg-opacity-80 backdrop-filter backdrop-blur-xl">
+      <header className="sticky left-0 top-0 w-full flex items-center h-20 border-b border-b-gray-100 z-40 bg-white  bg-opacity-80 backdrop-filter backdrop-blur-xl">
         <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
           <div className="flex items-center min-w-max">
             <Link href="/" className="flex flex-col">
@@ -74,10 +74,10 @@ const Navbar = () => {
             </Link>
           </div>
           <div className={`
-      absolute top-full  left-0 bg-white dark:bg-gray-950 lg:bg-transparent border-b border-gray-200 dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative  lg:flex lg:justify-between duration-300 ease-linear
+      absolute top-full  left-0 bg-white lg:bg-transparent border-b border-gray-200 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative  lg:flex lg:justify-between duration-300 ease-linear
       ${navIsOpened ? "translate-y-0 opacity-100 visible" : "translate-y-10 opacity-0 invisible lg:visible  lg:translate-y-0 lg:opacity-100"}
     `}>
-            <ul className="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 dark:text-gray-300 lg:w-full lg:justify-center">
+            <ul className="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 lg:w-full lg:justify-center">
               <li>
                 <Link href="/" className="relative py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Ana Sayfa</Link>
               </li>
@@ -93,7 +93,7 @@ const Navbar = () => {
 
             </ul>
             <div className="flex sm:items-center lg:min-w-max mt-10 lg:mt-0">
-              <Link href="/iletisim" className="px-6 items-center h-12 rounded-3xl text-pink-700 border border-gray-100 dark:border-gray-800 dark:text-blue bg-gray-100 dark:bg-gray-900 duration-300 ease-linear flex justify-center w-full sm:w-auto">
+              <Link href="/iletisim" className="px-6 items-center h-12 rounded-3xl text-pink-700 border border-gray-100 dark:text-blue bg-gray-100 duration-300 ease-linear flex justify-center w-full sm:w-auto">
                 Bizi Arayın
               </Link>
             </div>
@@ -101,13 +101,13 @@ const Navbar = () => {
           <div aria-hidden="true" className="flex items-center lg:hidden">
             <button onClick={() => {
               toggleNavbar()
-            }} aria-label='toggle navbar' className="outline-none border-l border-l-indigo-100 dark:border-l-gray-800 pl-3 relative py-3">
+            }} aria-label='toggle navbar' className="outline-none border-l border-l-indigo-100 pl-3 relative py-3">
               <span aria-hidden={true} className={`
-          flex h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300
+          flex h-0.5 w-6 rounded bg-gray-800 transition duration-300
           ${navIsOpened ? "rotate-45 translate-y-[.324rem]" : ""}
         `} />
               <span aria-hidden={true} className={`
-          mt-2 flex h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300
+          mt-2 flex h-0.5 w-6 rounded bg-gray-800 transition duration-300
           ${navIsOpened ? "-rotate-45 -translate-y-[.324rem]" : ""}
           `} />
             </button>
