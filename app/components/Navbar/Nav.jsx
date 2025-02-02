@@ -1,7 +1,9 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
+import Image from 'next/image';
 
+import logo from "../../assets/logo.webp"
 
 const Navbar = () => {
   const [navIsOpened, setNavIsOpened] = useState(true)
@@ -69,8 +71,9 @@ const Navbar = () => {
                 <span className="w-3 h-6 rounded-l-full flex bg-red-500" />
                 <span className="w-3 h-6 rounded-r-full flex bg-pink-700 mt-2" />
               </span> */}
-              <span className="text-lg text-gray-700 dark:text-gray-300 font-semibold">BALABAN</span>
-              <span className="text-[9px] text-gray-500 dark:text-gray-300 font-semibold">ŞİRKETLER GRUBU</span>
+              {/* <span className="text-lg text-gray-700 dark:text-gray-300 font-semibold">BALABAN</span>
+              <span className="text-[9px] text-gray-500 dark:text-gray-300 font-semibold">ŞİRKETLER GRUBU</span> */}
+              <Image src={logo} alt="İzmir Beton Parke" width={200} height={100} />
             </Link>
           </div>
           <div className={`

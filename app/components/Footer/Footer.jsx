@@ -1,5 +1,7 @@
 import Link from "next/link"
+import Image from 'next/image';
 
+import logo from "../../assets/logo.webp"
 const FooterItem = ({ text, link }) => {
   return (
     <li>
@@ -144,8 +146,9 @@ const FooterBlock = () => {
           <div className="w-full lg:w-96 space-y-6">
             <Link className="flex flex-col" href="#">
               {/* <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-800 to-indigo-400 font-bold text-2xl">U</span> */}
-              <span className="text-lg text-gray-700  font-semibold">BALABAN</span>
-              <span className="text-[9px] text-gray-500 font-semibold">ŞİRKETLER GRUBU</span>
+              {/* <span className="text-lg text-gray-700  font-semibold">BALABAN</span>
+              <span className="text-[9px] text-gray-500 font-semibold">ŞİRKETLER GRUBU</span> */}
+              <Image src={logo} alt="İzmir Beton Parke" width={160} height={80} />
             </Link>
             <p className="max-w-lg">
               Beton Parke Ürünlerimiz kalite standartlarına uygun bir şekilde üretiyoruz ve hizmetinize sunuyoruz.
@@ -164,7 +167,7 @@ const FooterBlock = () => {
       </div>
       <div className="py-3 bg-gray-100">
         <div className="max-w-3xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex justify-center text-center">
-          <p> © 2024 Tüm Hakları Saklıdır. </p>
+          <p> © 2025 Tüm Hakları Saklıdır. </p>
         </div>
       </div>
     </footer>
