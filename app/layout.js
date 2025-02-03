@@ -44,7 +44,7 @@ export const metadata = {
     url: "https://www.izmirbetonparke.com.tr/",
     images: [
       {
-        url: "/assets/logo.webp", // `public/` içinde olduğu için direkt kullanılabilir
+        url: "/images/logo.webp", // `public/` içinde olduğu için direkt kullanılabilir
         width: 1200,
         height: 630,
         alt: "İzmir Beton Parke Logo"
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               "name": "İzmir Beton Parke",
               "url": "https://www.izmirbetonparke.com.tr/",
-              "logo": "https://www.izmirbetonparke.com.tr/logo.webp",
+              "logo": "https://www.izmirbetonparke.com.tr/images/logo.webp",
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+90 541 262 29 22",
