@@ -39,7 +39,10 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: "Ana Sayfa - İzmir Beton Parke",
+    title: {
+      default: "Ana Sayfa - İzmir Beton Parke",
+      template: "%s - İzmir Beton Parke"
+    },
     description: "İzmir Beton Parke olarak yüksek kaliteli parke taşları üretiyoruz.",
     url: "https://www.izmirbetonparke.com.tr/",
     images: [
